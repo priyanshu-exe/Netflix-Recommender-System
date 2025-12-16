@@ -1,6 +1,5 @@
 {
   "buildCommand": "apt-get update && apt-get install -y libxml2-dev libxslt-dev && pip install -r requirements.txt",
-  "runtime": "python3.11",
   "functions": {
     "api/main.py": {
       "memory": 3008,
